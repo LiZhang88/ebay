@@ -5,7 +5,7 @@ $month=$_GET['month'];
 // API request variables
 $endpoint = 'http://svcs.ebay.com/services/search/FindingService/v1';  // URL to call
 $version = '1.0.0';  // API version supported by your application
-$appid = 'LIZhang43-6209-4e26-b570-6c3849756a4';  // Replace with your own AppID
+$appid = '';  // Replace with your own AppID
 $globalid = 'EBAY-US';  // Global ID of the eBay site you want to search (e.g., EBAY-DE)
 $query = array();  // You may want to supply your own query
 $category='15054';//category id for personal cd player
